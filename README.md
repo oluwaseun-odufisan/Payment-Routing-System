@@ -1,8 +1,6 @@
 
 # AI-Based Payment Routing System
 
-![Project Banner](docs/images/project_banner.png)
-
 ## Overview
 
 The **AI-Based Payment Routing System** is a solution designed to optimize payment routing for transactions processed through payment gateways in Nigeria. Flutterwave is used as case study for this project. By leveraging machine learning and contextual bandit algorithms, the system intelligently selects the optimal payment pathway (e.g., Card_Visa, Bank_Transfer_GTBank, USSD_MTN) to minimize costs, reduce latency, and maximize success rates. The system is made for the Nigerian fintech ecosystem, addressing local challenges such as network instability and varying processor performance.
