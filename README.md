@@ -1,5 +1,5 @@
 
-# AI-Based Payment Routing System for Nigeria (Flutterwave Integration)
+# AI-Based Payment Routing System
 
 ![Project Banner](docs/images/project_banner.png)
 
