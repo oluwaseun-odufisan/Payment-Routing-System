@@ -1,0 +1,23 @@
+backup_model_file: /content/model_backup.pkl
+cb_model_file: /content/cb_model.pkl
+data_dir: /content
+fallback_pathway: Card_Verve
+max_retries: 3
+metrics_file: /content/processor_metrics.csv
+model_file: /content/model.pkl
+model_params:
+  max_depth:
+  - 10
+  - null
+  min_samples_split:
+  - 2
+  n_estimators:
+  - 100
+  - 150
+retry_delay: 1
+scaler_file: /content/scaler.pkl
+transaction_file: /content/transaction_data.csv
+weights:
+  cost: 0.4
+  latency: 0.3
+  success_rate: 0.3
