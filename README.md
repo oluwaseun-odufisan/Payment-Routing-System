@@ -21,6 +21,7 @@ This project integrates **Random Forest** for predictive modeling and **Thompson
 - **Robust Error Handling**: Includes logging, data validation, and fallback mechanisms (default pathway: Card_Verve).
 - **Caching**: Optimizes preprocessing and data merging for performance in Google Colab.
 - **Nigeria-Specific**: Supports 10 payment pathways (e.g., Card_Visa, USSD_Airtel, Mobile_Money_OPay) and local merchant types (Retail, E-commerce, etc.).
+- **Simulated Data**: I used synthetically generated transaction and processor metrics data for this project and testing, with the expectation that real-world data should be used in production for accurate results.
 
 ## Project Structure
 
@@ -196,6 +197,7 @@ This system is designed to address real-world payment routing challenges in Nige
 - **Research Applications**: The EDA and model evaluation visualizations provide deep insights into transaction patterns and model performance, suitable for academic and industry research.
 
 To extend the system:
+- Replace synthetic data with real-world transaction and processor metrics data for accurate modeling.
 - Replace the Flutterwave API.
 - Add new pathways or modify weights in `config.yaml`.
 - Integrate with other ML models (e.g., XGBoost, Neural Networks) in the `PaymentModel` class.
